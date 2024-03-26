@@ -1,3 +1,4 @@
 .tmp.driveupload/*
 *.csv
 datasets/*
+yolov*
