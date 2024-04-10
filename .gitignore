@@ -3,3 +3,5 @@
 datasets/*
 yolov*
 *.mp4
+frames/*
+runs/*
