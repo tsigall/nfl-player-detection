@@ -3,5 +3,6 @@
 datasets/*
 yolov*
 *.mp4
+*.jpg
 frames/*
 runs/*
