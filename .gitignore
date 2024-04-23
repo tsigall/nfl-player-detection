@@ -7,3 +7,6 @@ yolov*
 frames/*
 runs/*
 *.zip
+*.DS_Store
+*.png
+nfl-test-images.v1i.yolov7pytorch/*
