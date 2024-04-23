@@ -6,3 +6,4 @@ yolov*
 *.jpg
 frames/*
 runs/*
+*.zip
