@@ -2,3 +2,15 @@
 
 Attempting to track NFL players using computer vision.
 Inspired by this project: https://doi.org/10.1145/3422844.3423054
+
+## Setup
+- Frames were sourced from the following videos:
+  - https://www.youtube.com/watch?v=JNbk_CiwgLs
+  - https://www.youtube.com/watch?v=YmAW-_f2TsA
+  - https://www.youtube.com/watch?v=1N_HrZ59MZA
+  - https://www.youtube.com/watch?v=HleYVZn61h4
+- Due to the size of the videos and the frames resulting from them they are not included in the repository. To obtain the frames needed, download the videos and use the `video_process.ipynb` code to extract them.
+
+## Usage
+- `annotations.ipynb` contains all code needed to automatically generate the training set, including isolating the field and running the initial model to generate annotations.
+- `yolo_training.ipynb` is then used to train the custom model on these generated annotations. A file containing the resultant parameters will be generated.
