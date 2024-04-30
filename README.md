@@ -13,4 +13,5 @@ Inspired by this project: https://doi.org/10.1145/3422844.3423054
 
 ## Usage
 - `annotations.ipynb` contains all code needed to automatically generate the training set, including isolating the field and running the initial model to generate annotations.
-- `yolo_training.ipynb` is then used to train the custom model on these generated annotations. A file containing the resultant parameters will be generated.
+- `yolo_training.ipynb` is then used to train the custom model on these generated annotations. A file containing the resultant parameters will be generated. That file could not be uploaded to this repository due to size constraints.
+- `data_exploration.ipynb` has a variety of code to help look at results, as does `presentation_visuals.ipynb`. Some may not work as they rely on images that could not be uploaded due to size contstraints. 
